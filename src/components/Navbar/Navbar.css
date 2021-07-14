@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #d5edfd;
+    height: 65px;
+}
+
+.navbarItem {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 60px;
+}
+
+.navbarItem .item a{
+    color: #555555;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.navbarItem .item a:hover{
+    color: gray
+}
